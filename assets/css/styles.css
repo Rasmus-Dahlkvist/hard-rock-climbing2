@@ -9,14 +9,18 @@ body, html {
 }
 
 #header {
-
+    background: slategray;
 } 
 
 .container {
-    
+    width: 50%;
+    margin: 0 auto;
 }
 
-/*Logo and Navigation*/
+#header .container {
+    display: flex;
+    align-items: center;
+}
 
 .menu {
     float: right;
@@ -26,5 +30,13 @@ body, html {
 .menu ul {
     padding: 0;
     margin: 0;
+}
+
+.menu ul li {
+
+} 
+
+.menu ul li a {
+
 }
 
