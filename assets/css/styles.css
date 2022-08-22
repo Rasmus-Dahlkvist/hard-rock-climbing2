@@ -1,22 +1,27 @@
+
+/* General */
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
-
 body {
     font-family: ubuntu, sans-serif;
 }
 
+/* Headings */
 h1 {
-    font-size: 45px;
+    text-decoration: none;
+}
+h1, h2 {
+    color: #575432;
 }
 
+/* Navigation + Logo */
 #header {
-    background: slategray;
+    background: #D6D6D6;
     padding: 12px 0;
 } 
-
 .container {
     width: 97%;
     margin: 0 auto;
@@ -28,7 +33,9 @@ h1 {
     align-items: center;
 }
 
-.menu {}
+.menu a:hover {
+    border-bottom: 2px solid #393A67;
+}
 
 .menu ul {
     padding: 0;
@@ -44,7 +51,18 @@ h1 {
 
 .menu ul li a {
     text-decoration: none;
-    color: #35008C;
+    color: #393A67;
 }
 
+/* Welcome + Image */
 
+/* Join Us Form */
+
+/* Events */
+
+/* Footer + Contact */
+
+/* Screen Responiveness */
+/* Big Screen */
+/* Medium Screen */
+/* Small Screen */
