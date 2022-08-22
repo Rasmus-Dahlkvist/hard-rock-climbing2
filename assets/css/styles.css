@@ -16,16 +16,15 @@ body, html {
     
 }
 
-.menu ul {
-
-}
+/*Logo and Navigation*/
 
 .menu {
     float: right;
     display: inline-block
 }
 
-.logo {
-    float: left;
-    font-size: 150%;
+.menu ul {
+    padding: 0;
+    margin: 0;
 }
+
