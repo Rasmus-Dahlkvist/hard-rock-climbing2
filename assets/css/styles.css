@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik:wght@300&display=swap');
 
 /* General */
 * {
@@ -8,18 +9,23 @@
     text-align: center;
 }
 body {
-    font-family: ubuntu, sans-serif;
+    font-family: Rubik, sans-serif;
 }
 
 /* Headings */
 
 h1, h2 {
-    color: #575432;
+    font-family: Rubik Dirt, sans-serif;
+    color: #FF8B32;
+}
+
+h2 {
+    color: #f66469;
 }
 
 /* Header */
 #header {
-    background: #D6D6D6;
+    background: #2f4858;
     padding: 12px 0;
 } 
 .container {
@@ -34,7 +40,7 @@ h1, h2 {
 }
 
 .menu a:hover {
-    border-bottom: 2px solid #393A67;
+    border-bottom: 2px solid #f66469;
 }
 
 .menu ul {
@@ -51,7 +57,7 @@ h1, h2 {
 
 .menu ul li a {
     text-decoration: none;
-    color: #393A67;
+    color: #f66469;
 }
 
 .logo h1 a:hover{
