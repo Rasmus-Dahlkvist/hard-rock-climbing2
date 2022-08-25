@@ -5,6 +5,7 @@
     padding: 0;
     border: none;
     text-decoration: none;
+    text-align: center;
 }
 body {
     font-family: ubuntu, sans-serif;
@@ -57,13 +58,10 @@ h1, h2 {
     border-bottom: 2px solid #575432;
 }
 
-/* Welcome + Image */
-
-/* Join Us Form */
-
-/* Events */
-
-/* Footer + Contact */
+/* Sections */
+#welcome-section > h2 {
+    text-align:center;
+}
 
 /* Screen Responiveness */
 /* Big Screen */
