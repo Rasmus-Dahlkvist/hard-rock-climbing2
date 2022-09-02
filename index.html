@@ -11,7 +11,7 @@
 <body>   
     <!--Header Based on https://www.youtube.com/watch?v=CxJUnPEb9bM and 
         https://www.youtube.com/watch?v=4996fn82c4c--> 
-    <header id="header">
+        <header id="header">
             <a href="index.html" class="logo">
                 <h1>Hardrock-Climbing!</h1>
             </a>
@@ -19,53 +19,46 @@
             <nav id="burger-menu">
 
                 <!-- Burger-Icon -->
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Join Us</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+                <label for="burger-icon">☰</label>
+                <input type="checkbox" id="burger-icon">
+
+                <!-- Burger-Items -->
+                <div id="burger-items">
+                    <a href="#">Home</a>
+                    <a href="#">Events</a>
+                    <a href="#">Join Us</a>
+                    <a href="#">Contact</a>
+                </div>
             </nav>
-        
-    </header>
-
-    <section id="welcome-section">
-        <div class="welcome-div">
-            <h2>Welcome!</h2>
-        </div>
-
-    </section>
-
-    <section id="about-section">
-        <div class="about-div">
-            <h2>About Us</h2>
-        </div>
-    </section>
-
-    <section id="events-section">
-        <div class="events-div">
-            <h2>Events</h2>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="form-div">
-            <h2>Join Us Form</h2>
-        </div>
-    </section>
-
-    <footer>
-        <ul>
-            <li>
-                Phone:
-            </li>
-            <li>
-                Email:
-            </li>
-            <li>
-                Adress:
-            </li>
-        </ul>    
-    </footer>
-</body>
+        </header>
+        <main>
+            <section id="welcome-section">
+                <div class="welcome-div">
+                    <h2>Welcome!</h2>
+                </div>
+            </section>
+            <section id="about-section">
+                <div class="about-div">
+                    <h2>About Us</h2>
+                </div>
+            </section>
+            <section id="events-section">
+                <div class="events-div">
+                    <h2>Events</h2>
+                </div>
+            </section>
+            <section class="section">
+                <div class="form-div">
+                    <h2>Join Us Form</h2>
+                </div>
+            </section>
+            <footer>
+                <ul>
+                    <li>Phone:</li>
+                    <li>Email:</li>
+                    <li>Adress:</li>
+                </ul>
+            </footer>
+        </main>
+    </body>
 </html>
