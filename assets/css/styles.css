@@ -24,3 +24,22 @@
     color: #db8472;
 }
 
+#burger-menu {
+    display: flex;
+    font-size: 1em;
+}
+
+#burger-menu a {
+    padding: 10px;
+    color: #9e6271;
+    text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+#burger-menu a:hover {
+    background: #9e6271;
+    color: #2a2a2a;
+}
+
