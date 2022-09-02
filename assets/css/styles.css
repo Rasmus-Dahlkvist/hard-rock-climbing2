@@ -24,22 +24,69 @@
     color: #db8472;
 }
 
-#burger-menu {
+/* Makes Icon Dissapear on big screen */
+#burger-menu label, #burger-icon {
+    display: none;
+}
+
+
+#burger-items {
     display: flex;
     font-size: 1em;
 }
 
-#burger-menu a {
+#burger-items a {
     padding: 10px;
     color: #9e6271;
     text-decoration: none;
-    text-align: center;
     flex-grow: 1;
     flex-basis: 0;
 }
 
-#burger-menu a:hover {
+#burger-items a:hover {
     background: #9e6271;
     color: #2a2a2a;
 }
 
+/* Small Screen */
+@media screen and (max-width: 700px) {
+    /* Dropdown-Menu */
+    #header h1 {
+      font-size: 125%;
+    }
+  
+    #burger-items {
+      display: block;
+    }
+    #burger-items a {
+      font-size: 0.8em;
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    #burger-items a:hover {
+      background: #9e6271;
+      color: #2a2a2a;
+    }  
+  
+    /* Show Burger Icon */
+    #burger-menu label {
+      display: inline-block;
+      color: #9e6271;
+      font-size: 1.5em;
+      font-style: normal;
+      padding: 10px;
+  
+    }
+  
+    /* Hide Menu Items By Default */
+    #burger-items {
+      display: none;
+    }
+  
+    /* Toggle Show Hide */
+    #burger-menu input:checked ~ #burger-items {
+      display: block;
+    }
+  }
