@@ -8,6 +8,7 @@
     font-family: 'Rubik Dirt', cursive;
 }
 
+/* Title */
 #header {
     width: 100%;
     background: #2a2a2a;
@@ -26,6 +27,7 @@
     font-weight: 400;
 }
 
+/* Menu */
 /* Makes Icon Dissapear on big screen */
 #burger-menu label, #burger-icon {
     display: none;
@@ -76,7 +78,7 @@
     #burger-menu label {
       display: inline-block;
       color: #9e6271;
-      font-size: 1.5em;
+      font-size: 0.8em;
       font-style: normal;
       padding: 10px;
   
