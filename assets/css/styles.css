@@ -21,6 +21,7 @@ h1, h2 {
 
 h2 {
     color: #f66469;
+    font-size: 0.8em;
 }
 
 /* Header */
@@ -60,6 +61,10 @@ h2 {
     color: #f66469;
 }
 
+.logo h1 {
+    font-size: 1.2em;
+} 
+
 .logo h1 a:hover{
     border-bottom: 2px solid #575432;
 }
@@ -72,9 +77,11 @@ h2 {
 /* Screen Responiveness */
 /* Big Screen */
 /* Medium Screen */
-/* Small Screen */
+/* Small Screen */ 
+
+/* Inspiration from: https://www.youtube.com/watch?v=OjQP7rPwJyE */
 @media only screen and (max-width: 600px) {
-    header nav {
+    .menu {
         display: none;
     }
 }
