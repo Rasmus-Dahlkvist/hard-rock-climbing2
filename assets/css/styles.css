@@ -62,11 +62,17 @@ h2 {
 
 /* MAIN */
 /* Secions */
+section {
+  width: 100%;
+  height: 90vh;
+}
+
 #home-section {
 
 }
 
 #home-image {
+  float: right;
   height: 500px;
   width: 500px;
   background: url('../images/climbing-wall.jpeg') no-repeat 100%;
