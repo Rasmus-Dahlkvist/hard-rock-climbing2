@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik:wght@300&display=swap');
 
 /* General */
 * {
@@ -9,13 +9,20 @@
 }
 
 body {
-  background-color: #3a3a3a;
+  background-color: #2a2a2a;
   text-align: center;
 }
 
 h2 {
-  color: #9e6271;
+  color: #db8472;
   font-weight: 100;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p {
+  color: #fff;
+  font-family: 'Rubik', cursive;
 }
 
 /* HEADER */
@@ -57,8 +64,7 @@ h2 {
 }
 
 #burger-items a:hover {
-    background: #9e6271;
-    color: #2a2a2a;
+    color: #db8472;
 }
 
 /* MAIN */
@@ -70,9 +76,8 @@ section {
 
 #home-image {
   background: url('../images/Orange-outdoor.jpeg');
-  float: right;
-  height: 60%;
-  width: 50%;
+  height: 70%;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
