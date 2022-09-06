@@ -14,7 +14,7 @@ body {
   text-align: center;
 }
 
-h1 ,h2 {
+h1 ,h2 ,h3 {
   font-family: 'Rubik Dirt', cursive;
   color: #db8472;
   font-weight: 100;
@@ -22,8 +22,8 @@ h1 ,h2 {
   padding-bottom: 20px;
 }
 
-ul {
-  padding: 20px;
+h3 {
+  color:#9e6271;
 }
 
 /* HEADER */
@@ -69,11 +69,10 @@ ul {
 }
 
 /* MAIN */
-
-/* Secions */
-section {
+/* Home */
+#home {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
 }
 
 #home-image {
@@ -83,6 +82,42 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+/* Events */
+#events {
+  background-color: #3a3a3a;
+  width: 100%;
+  height: 40vh;
+}
+
+.event-divs {
+  margin: 0 20px 0 20px;
+}
+
+#left-event {
+  display: inline-block;
+  background-color: #2a2a2a;
+  padding: 20px;
+}
+
+#center-event {
+  display: inline-block;
+  background-color: #2a2a2a;
+  padding: 20px;
+}
+
+#right-event {
+  display: inline-block;
+  background-color: #2a2a2a;
+  padding: 20px;
+}
+
+/* Join Us */
+#form {
+  background-color: #4a4a4a;
+  width: 100%;
+  height: 80vh;
 }
 
 /* Small Screen */
