@@ -100,18 +100,15 @@ h3 {
 #events {
   background-color: #3a3a3a;
   width: 100%;
+  height: 50vh
 }
 
 #events div {
-  width: 100%;
-  display: inline-block;
-  justify-content: center;
+  
 }
 
-#events div h4 {
-  color: #fff;
-  font-family: 'Rubik Dirt', cursive;
-  font-weight: 100;
+#left-event {
+
 }
 
 /* Join Us */
