@@ -22,7 +22,7 @@ h1 ,h2 ,h3 {
   padding-bottom: 20px;
 }
 
-h3 {
+h3 ,h4 {
   color:#9e6271;
 }
 
@@ -84,6 +84,13 @@ h3 {
   position: relative;
 }
 
+#home-list {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  text-align: left;
+}
+
 /* Events */
 #events {
   background-color: #3a3a3a;
@@ -92,7 +99,10 @@ h3 {
 }
 
 .event-divs {
+  display: block;
+  block-size: 70%;
   margin: 0 20px 0 20px;
+  text-align: left;
 }
 
 #left-event {
@@ -162,6 +172,12 @@ h3 {
       display: block;
     }
 
-    /* Home Image */
+    /* Events */
+    #events {
+      background-color: #3a3a3a;
+      width: 100%;
+      height: 150vh;
+      position: relative;
+    }
 
   }
