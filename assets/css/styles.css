@@ -139,7 +139,7 @@ table ,tr ,th ,td {
 #form {
   background-color: #4a4a4a;
   width: 100%;
-  height: 70vh;
+  height: 60vh;
 }
 
 form {
@@ -173,6 +173,10 @@ input[type="submit"] {
   margin: auto;
   width: 10vw;
   background-color: #9e6271;
+}
+
+input[type="submit"]:hover {
+  background-color: #db8472;
 }
 
 /* Small Screen */
@@ -236,5 +240,25 @@ input[type="submit"] {
     /* Events */
     #events {
       height: 40vh;
+    }
+
+    /* Form */
+    form {
+      background-color:#4a4a4a;
+      width: 100%;
+      margin: auto;
+      padding-bottom: 2em;
+    }
+
+    input {
+      margin: 10px 0 0 0;
+      width: 90%;
+      height: 2em;
+    }
+    input[type="submit"] {
+      display: block;
+      margin: auto;
+      width: 20%;
+      background-color: #9e6271;
     }
   }
