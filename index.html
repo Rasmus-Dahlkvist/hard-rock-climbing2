@@ -82,20 +82,17 @@
             <section id="form">
                 <h2>Join our email list</h2>
                 <div id="signup-container">
+                    <!-- form heavily relied on www.freecodecamp.org and www.w3schools.com-->
                     <form>
-                        <label for="fname">First Name
-                            <input id="fname" type="text">
-                        </label>
-                        <label for="lname">Last Name
-                            <input id="lname">
-                        </label>
-                        <label for="email">
-                            <input id="email">
-                        </label>
-                        <input type="radio" value="Bouldering">
-                        <input type="radio" value="Toprope">
-                        <input type="radio" value="Lead">
-                        <input type="radio" value="Other">
+                        <fieldset>
+                            <label for="fname">First Name:</label>
+                            <input id="fname" name="fname" type="text" required>
+                            <label for="lname">Last Name:</label>
+                            <input id="lname" name="lname" type="text" required>
+                            <label for="email">Email:</label>
+                            <input id="email" name="email" type="email" required>
+                        </fieldset>
+                        <input type="submit" value="Submit">
                     </form>
                 </div>
             </section>
