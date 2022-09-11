@@ -306,10 +306,12 @@ footer ul {
     /* footer */
     footer {
       background-color: red;
+      height: 50vh;
     }
 
     #foot {
       background-color: green;
+      height: 25vh;
       width: 90%;
     }
     
