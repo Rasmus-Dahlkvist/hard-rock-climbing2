@@ -193,7 +193,7 @@ input[type="submit"]:hover {
 
 /* Footer */
 footer {
-  height: 10vw;
+  height: 10vh;
 }
 
 footer ul {
@@ -306,6 +306,7 @@ footer ul {
 
     #foot {
       background-color: #09f009;
+      width: 90%;
     }
     
   }
