@@ -193,7 +193,7 @@ input[type="submit"]:hover {
 
 /* Footer */
 footer {
-  height: fit-content;
+  height: 10vw;
 }
 
 footer ul {
