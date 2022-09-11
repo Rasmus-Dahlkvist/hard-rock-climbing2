@@ -261,7 +261,7 @@ footer ul {
     /* Home */
     #home {
       width: 100%;
-      height: 70vh;
+      /*height: 70vh;*/
     }
 
     #home-image {
@@ -275,9 +275,9 @@ footer ul {
     }
 
     /* Events */
-    #events {
+    /*#events {
       height: 40vh;
-    }
+    }*/
 
     /* Form */
     form {
