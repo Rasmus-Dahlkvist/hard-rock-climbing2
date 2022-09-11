@@ -16,6 +16,10 @@ body {
   text-decoration: none;
 }
 
+main {
+  height: fit-content;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
@@ -301,11 +305,11 @@ footer ul {
 
     /* footer */
     footer {
-      background-color: #c40a0a;
+      /*background-color: #c40a0a;*/
     }
 
     #foot {
-      background-color: #09f009;
+      /*background-color: #09f009;*/
       width: 90%;
     }
     
