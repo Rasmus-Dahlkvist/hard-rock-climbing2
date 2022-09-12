@@ -198,6 +198,7 @@ input[type="submit"]:hover {
 /* Footer */
 footer {
   height: 10vh;
+  margin-top: 20px;
 }
 
 footer ul {
@@ -207,6 +208,7 @@ footer ul {
 #foot {
   width: 50%;
   margin: auto;
+  margin-top: 20px;
 }
 
 #foot-top {
@@ -305,13 +307,11 @@ footer ul {
 
     /* footer */
     footer {
-      background-color: red;
-      height: 50vh;
+      margin-top: 100px;
     }
 
     #foot {
-      background-color: green;
-      height: 25vh;
+      margin-top: 50px;
       width: 90%;
     }
     
