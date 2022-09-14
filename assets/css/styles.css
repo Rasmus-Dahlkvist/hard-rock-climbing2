@@ -185,7 +185,6 @@ fieldset {
 
 label {
   display: block;
-  margin-top: 20px;
 }
 
 input {
@@ -240,7 +239,7 @@ footer ul {
 @media screen and (max-width: 700px) {
     /* Dropdown-Menu */
     #header h1 {
-      font-size: 125%;
+      font-size: 100%;
     }
   
     #burger-items {
@@ -261,7 +260,7 @@ footer ul {
     /* Show Burger Icon */
     #burger-menu label {
       display: inline-block;
-      color: #9e6271;
+ 
       font-size: 0.8em;
       font-style: normal;
       padding: 10px;
