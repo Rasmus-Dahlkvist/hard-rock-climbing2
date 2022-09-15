@@ -1,108 +1,127 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Hardrock-Climbing!
+This is a website for anyone interested in climbing, beginners and experienced climbers alike we learn from each other.
 
-Welcome Rasmus_Dahlkvist,
+![am i responsive screenshot](/assets/images/am_i_responsive.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
+## Features
 ---
+### Navigation and header
+- At the top center of the page we have our logo **Hardrock-Climbing!**
+- The main navigation menu is located just beneath the logo.
+- On big screens the navigation menu stretches in a horisontal line and covers the screen width.
+- On small screens the navigation menu turns into a dropdown menu with a centered "hamburger icon"
+- On desktops and laptops the navigation menu text changes color when hovering over them.
+- I also decided to have a large backround image right beneath the navigation menu to set the mood.
+- I have used the full image for large screens and a cropped version for small screens.
 
-Happy coding!
+![navigation bar screenshot](/assets/images/header_screenshot.png)
+
+### Welcome section
+This section contains
+- our slogan.
+- Explains why you should try climbing.
+- And also a quote from Chuck Pratt.
+
+![welcome section screenshot](/assets/images/welcome_screenshot.png)
+
+### Events section
+This section contains 
+- Text specifying what types of climbing we do.
+- Three links to wikipedia where you can read more about those types of climbing.
+links:
+[Bouldering](https://en.wikipedia.org/wiki/Bouldering)
+[Toprope](https://en.wikipedia.org/wiki/Top_rope_climbing)
+[Lead](https://en.wikipedia.org/wiki/Lead_climbing)
+- On desktops and laptops the links changes color when hovering over them.
+- And a table explaining what we do and when.
+
+![events section screenshot](/assets/images/events_screenshot.png)
+
+### Join our email list section
+This section contains
+- A sign up form where you write your first name last name and email adress.
+- The first name field is required.
+- The last name field is required.
+- The email field is required and will require you to use an email adress
+- Submit button to send your form 
+- On desktops and laptops the button changes color when hovering over it.
+
+![join our email list screenshot](/assets/images/form_screenshot.png)
+
+### Footer
+The footer contains 
+- Our contact information with font icons.
+- Clickable font icon links to facebook and youtube.
+
+![footer screenshot](/assets/images/footer_screenshot.png)
+
+## Testing
+---
+- I have tested this page on big and small screen sizes in Firefox and chrome.
+- I have made sure this page looks good and is responsive on standard screen sizes using devtools.
+
+### Bugs
+### Fixed bugs
+While using devtools my website seemed responsive and worked great with most screen sizes. 
+But when i deployed my site to github pages i discovered that
+- My site collapsed on itself when using smaller screens.
+- Same problem when using windowed mode on desktop.
+- My h1 text was separated into two lines on some small screens.
+- Only a concern! the table in events is not as responsive as the rest of the site.
+
+I worked on fixing the colapsing problem for three days straight and had huge problems with it.
+
+I think what fixed the colapsing problem was adding min-height: 100%; to the #home, #events, #form and footer in styles.css
+
+And for the h1 i had to change the font size to 100% in media queries.
+
+### Unfixed Bugs
+- The problem with setting the h1 font size to 100% in media queries is that on mobile screens it makes the h1 as small as the h2s and i am not very happy about that.
+- The table in events has not been a problem on the screens i have tested it on but i am concerned that on some small screens it may not fit 100%.
+
+### Validator Testing
+Using W3C validators for testing html and css.
+- HTML = Document checking completed. No errors or warnings to show.
+- CSS = Congratulations! No Error Found.
+
+Using Lighthouse in devtools for testing accessibility 
+
+![lighthouse screenshot](/assets/images/lighthouse-test.png)
+
+## Deployment
+---
+This site was deployed using github pages.
+
+When you are in the repository you want to deploy:
+
+1. Click on "Settings"
+2. Click on "Pages"
+3. Find Build and deployment
+4. In the Source dropdown menu select "Deploy from a branch"
+5. In the Branch dropdown menus select "main" and "/(root)"
+6. Click Save
+7. Wait 5 minutes 
+8. Refresh page
+9. Now you should have a link
+
+This is my live link - [Hardrock-Climbing!](https://rasmus-dahlkvist.github.io/hard-rock-climbing2/)
+
+## Credits
+---
+### Content
+- The code for making the header, navigation bar and hamburger label with dropdown menu was heavily inspired from [Simple Responsive Hamburger Menu With Pure HTML CSS](https://www.youtube.com/watch?v=4996fn82c4c)
+- The code for making the times table in the events section was inspired by [W3S HTML Tables](https://www.w3schools.com/html/html_tables.asp) and [W3S CSS Styling Tables](https://www.w3schools.com/css/css_table.asp)
+- The code for making the signup form was inspired by [FreeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-62), [W3S HTML Forms](https://www.w3schools.com/html/html_forms.asp) and [W3S CSS Forms](https://www.w3schools.com/css/css_form.asp)
+- The code for making the social media font icon links was taken from Code Institutes [Love Running project](https://github.com/Rasmus-Dahlkvist/Love-Running/blob/main/index.html)
+- The text font i used was taken from [Google Fonts](https://fonts.google.com/specimen/Rubik+Dirt?query=rubik)
+
+### Image
+- The image i used was taken from [Pexels](https://www.pexels.com/photo/person-rock-climbing-3077882/)
+
+### Font Icons
+- The font icons i used was taken from [Fontawesome](https://fontawesome.com/icons)
+
+### Color palette
+- The colors i used was based on recomendations from [ColorSpace](https://mycolor.space/)
+
+![colorspace screenshot](/assets/images/colorspace_palette_screenshot.png)
