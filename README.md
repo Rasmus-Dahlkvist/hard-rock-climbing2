@@ -2,6 +2,7 @@
 This is a website for anyone interested in climbing, beginners and experienced climbers alike we learn from each other. 
 
 Link to my [Github Repo](https://github.com/Rasmus-Dahlkvist/hard-rock-climbing2)
+
 Link to my [Live Site](https://rasmus-dahlkvist.github.io/hard-rock-climbing2/)
 
 ![am i responsive screenshot](/assets/readme-images/am-i-responsive.png)
