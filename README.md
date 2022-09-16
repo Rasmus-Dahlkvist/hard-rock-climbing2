@@ -18,7 +18,7 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/hard-rock-climbing2/)
 - I also decided to have a large backround image right beneath the navigation menu to set the mood.
 - I have used the full image for large screens and a cropped version for small screens.
 
-![navigation bar screenshot](/assets/readme-images/header-screenshot.png)
+![navigation bar screenshot](/assets/readme-images/header-section.png)
 
 ### Welcome section
 This section contains
