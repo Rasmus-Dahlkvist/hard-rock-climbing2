@@ -133,7 +133,7 @@ a:hover {
 }
 
 #hero-image {
-  background: url('../images/Orange-outdoor.jpeg');
+  background: url('../images/orange-outdoor.jpeg');
   height: 70%;
   background-position: center;
   background-repeat: no-repeat;
@@ -283,7 +283,7 @@ footer ul {
     }
 
     #hero-image {
-      background: url('../images/Orange-outdoor-mobile.jpeg');
+      background: url('../images/orange-outdoor-mobile.jpeg');
       height: 40%;
       width: auto;
       background-position: center;

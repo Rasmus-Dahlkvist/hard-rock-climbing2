@@ -1,7 +1,10 @@
 # Hardrock-Climbing!
-This is a website for anyone interested in climbing, beginners and experienced climbers alike we learn from each other.
+This is a website for anyone interested in climbing, beginners and experienced climbers alike we learn from each other. 
 
-![am i responsive screenshot](/assets/images/am_i_responsive.png)
+Link to my [Github Repo](https://github.com/Rasmus-Dahlkvist/hard-rock-climbing2)
+Link to my [Live Site](https://rasmus-dahlkvist.github.io/hard-rock-climbing2/)
+
+![am i responsive screenshot](/assets/readme-images/am-i-responsive.png)
 
 ## Features
 ---
@@ -14,15 +17,15 @@ This is a website for anyone interested in climbing, beginners and experienced c
 - I also decided to have a large backround image right beneath the navigation menu to set the mood.
 - I have used the full image for large screens and a cropped version for small screens.
 
-![navigation bar screenshot](/assets/images/header_screenshot.png)
+![navigation bar screenshot](/assets/readme-images/header-screenshot.png)
 
 ### Welcome section
 This section contains
-- our slogan.
+- Our slogan.
 - Explains why you should try climbing.
 - And also a quote from Chuck Pratt.
 
-![welcome section screenshot](/assets/images/welcome_screenshot.png)
+![welcome section screenshot](/assets/readme-images/welcome-screenshot.png)
 
 ### Events section
 This section contains 
@@ -35,7 +38,7 @@ links:
 - On desktops and laptops the links changes color when hovering over them.
 - And a table explaining what we do and when.
 
-![events section screenshot](/assets/images/events_screenshot.png)
+![events section screenshot](/assets/readme-images/events-screenshot.png)
 
 ### Join our email list section
 This section contains
@@ -46,14 +49,14 @@ This section contains
 - Submit button to send your form 
 - On desktops and laptops the button changes color when hovering over it.
 
-![join our email list screenshot](/assets/images/form_screenshot.png)
+![join our email list screenshot](/assets/readme-images/form-screenshot.png)
 
 ### Footer
 The footer contains 
 - Our contact information with font icons.
 - Clickable font icon links to facebook and youtube.
 
-![footer screenshot](/assets/images/footer_screenshot.png)
+![footer screenshot](/assets/readme-images/footer-screenshot.png)
 
 ## Testing
 ---
@@ -86,7 +89,7 @@ Using W3C validators for testing html and css.
 
 Using Lighthouse in devtools for testing accessibility 
 
-![lighthouse screenshot](/assets/images/lighthouse-test.png)
+![lighthouse screenshot](/assets/readme-images/lighthouse-test.png)
 
 ## Deployment
 ---
@@ -124,4 +127,4 @@ This is my live link - [Hardrock-Climbing!](https://rasmus-dahlkvist.github.io/h
 ### Color palette
 - The colors i used was based on recomendations from [ColorSpace](https://mycolor.space/)
 
-![colorspace screenshot](/assets/images/colorspace_palette_screenshot.png)
+![colorspace screenshot](/assets/readme-images/colorspace-palette-screenshot.png)
