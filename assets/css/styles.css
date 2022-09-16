@@ -75,6 +75,10 @@ a:hover {
     font-size: 1.5em;
 }
 
+#header :hover {
+  color: #fdb868;
+}
+
 #header a {
     text-decoration: none;
 }
@@ -115,7 +119,6 @@ a:hover {
 }
 
 /* Home */
-
 #home {
   width: 100%;
   min-height: 100%;
@@ -208,6 +211,16 @@ input[type="submit"]:hover {
   background-color: #db8472;
 }
 
+#thanx {
+background-color: #3a3a3a;
+height: 65vh;
+min-height: 100%;
+}
+
+#thanx div {
+  padding-top: 10em;
+}
+
 /* Footer */
 footer {
   min-height: 100%;
@@ -292,7 +305,6 @@ footer ul {
       position: relative;
     }
 
-    /* Events */
     /* Form */
     form {
       background-color:#4a4a4a;
