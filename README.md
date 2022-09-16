@@ -55,9 +55,18 @@ This section contains
 ### Footer
 The footer contains 
 - Our contact information with font icons.
-- Clickable font icon links to facebook and youtube.
+- Clickable font icon links to github and linkedin.
 
 ![footer screenshot](/assets/readme-images/footer.png)
+
+### Email list thank you page
+This page contains 
+- The same header as home page.
+- A thank you message.
+- A link to home page.
+- The same footer as home page.
+
+![Thank you page screenshot](/assets/readme-images/thank-you-page.png)
 
 ## Testing
 ---
@@ -85,8 +94,9 @@ And for the h1 i had to change the font size to 100% in media queries.
 
 ### Validator Testing
 Using W3C validators for testing html and css.
-- HTML = Document checking completed. No errors or warnings to show.
-- CSS = Congratulations! No Error Found.
+- index.html = Document checking completed. No errors or warnings to show.
+- submitted.html = Document checking completed. No errors or warnings to show.
+- styles.css = Congratulations! No Error Found.
 
 Using Lighthouse in devtools for testing accessibility on index.html
 
