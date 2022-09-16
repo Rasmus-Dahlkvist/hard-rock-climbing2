@@ -26,7 +26,7 @@ This section contains
 - Explains why you should try climbing.
 - And also a quote from Chuck Pratt.
 
-![welcome section screenshot](/assets/readme-images/welcome-screenshot.png)
+![welcome section screenshot](/assets/readme-images/welcome-section.png)
 
 ### Events section
 This section contains 
@@ -39,7 +39,7 @@ links:
 - On desktops and laptops the links changes color when hovering over them.
 - And a table explaining what we do and when.
 
-![events section screenshot](/assets/readme-images/events-screenshot.png)
+![events section screenshot](/assets/readme-images/events-section.png)
 
 ### Join our email list section
 This section contains
@@ -50,14 +50,14 @@ This section contains
 - Submit button to send your form 
 - On desktops and laptops the button changes color when hovering over it.
 
-![join our email list screenshot](/assets/readme-images/form-screenshot.png)
+![join our email list screenshot](/assets/readme-images/form-section.png)
 
 ### Footer
 The footer contains 
 - Our contact information with font icons.
 - Clickable font icon links to facebook and youtube.
 
-![footer screenshot](/assets/readme-images/footer-screenshot.png)
+![footer screenshot](/assets/readme-images/footer.png)
 
 ## Testing
 ---
@@ -88,9 +88,13 @@ Using W3C validators for testing html and css.
 - HTML = Document checking completed. No errors or warnings to show.
 - CSS = Congratulations! No Error Found.
 
-Using Lighthouse in devtools for testing accessibility 
+Using Lighthouse in devtools for testing accessibility on index.html
 
-![lighthouse screenshot](/assets/readme-images/lighthouse-test.png)
+![lighthouse screenshot for index.html](/assets/readme-images/lighthouse-test-homepage.png)
+
+Using Lighthouse in devtools for testing accessibility on submitted.html
+
+![lighthouse screenshot for submitted.html](/assets/readme-images/lighthouse-test-thanxpage.png)
 
 ## Deployment
 ---
