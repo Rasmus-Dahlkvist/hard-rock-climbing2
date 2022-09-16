@@ -110,6 +110,22 @@ When you are in the repository you want to deploy:
 
 This is my live link - [Hardrock-Climbing!](https://rasmus-dahlkvist.github.io/hard-rock-climbing2/)
 
+## Fork Repo
+
+When you are in the repository you want to fork:
+
+Locate the "Fork" button on the top right of the page and click it
+
+## Create Local Clone
+
+1. Under the repository name, click on the ‘code’ tab
+2. In the clone box, HTTPS tab, click on the clipboard icon
+3. In your IED open GitBash
+4. Changed the current working directory to the location you want the cloned directory to be made
+5. Type ‘git clone’ and then paste the URL copied from GitHub
+6. Press enter and the local clone will be created
+
+
 ## Credits
 ---
 ### Content
@@ -129,3 +145,8 @@ This is my live link - [Hardrock-Climbing!](https://rasmus-dahlkvist.github.io/h
 - The colors i used was based on recomendations from [ColorSpace](https://mycolor.space/)
 
 ![colorspace screenshot](/assets/readme-images/colorspace-palette-screenshot.png)
+
+### The README.md
+Inspiration for writing this readme file.
+
+- The overall layout was taken from Code institutes
