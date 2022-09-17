@@ -14,14 +14,15 @@ Link to my [Live Site](https://rasmus-dahlkvist.github.io/hard-rock-climbing2/)
 - The main navigation menu is located just beneath the logo.
 - On big screens the navigation menu stretches in a horisontal line and covers the screen width.
 - On small screens the navigation menu turns into a dropdown menu with a centered "hamburger icon"
-- On desktops and laptops the navigation menu text changes color when hovering over them.
+- On desktops and laptops the navigation menu text and header text changes color when hovering over them.
 - I also decided to have a large backround image right beneath the navigation menu to set the mood.
 - I have used the full image for large screens and a cropped version for small screens.
 
 ![navigation bar screenshot](/assets/readme-images/header-section.png)
 
 ### Welcome section
-This section contains
+This section contains:
+- What the webbpage is for.
 - Our slogan.
 - Explains why you should try climbing.
 - And also a quote from Chuck Pratt.
@@ -29,10 +30,9 @@ This section contains
 ![welcome section screenshot](/assets/readme-images/welcome-section.png)
 
 ### Events section
-This section contains 
+This section contains: 
 - Text specifying what types of climbing we do.
 - Three links to wikipedia where you can read more about those types of climbing.
-links:
 [Bouldering](https://en.wikipedia.org/wiki/Bouldering)
 [Toprope](https://en.wikipedia.org/wiki/Top_rope_climbing)
 [Lead](https://en.wikipedia.org/wiki/Lead_climbing)
@@ -42,7 +42,7 @@ links:
 ![events section screenshot](/assets/readme-images/events-section.png)
 
 ### Join our email list section
-This section contains
+This section contains:
 - A sign up form where you write your first name last name and email adress.
 - The first name field is required.
 - The last name field is required.
@@ -52,21 +52,23 @@ This section contains
 
 ![join our email list screenshot](/assets/readme-images/form-section.png)
 
-### Footer
-The footer contains 
-- Our contact information with font icons.
-- Clickable font icon links to github and linkedin.
-
-![footer screenshot](/assets/readme-images/footer.png)
-
 ### Email list thank you page
-This page contains 
+When submitting a valid form you will be taken here.
+
+This site contains:
 - The same header as home page.
 - A thank you message.
 - A link to home page.
 - The same footer as home page.
 
 ![Thank you page screenshot](/assets/readme-images/thank-you-page.png)
+
+### Footer
+The footer contains:
+- Our contact information with font icons.
+- Clickable font icon links to github and linkedin.
+
+![footer screenshot](/assets/readme-images/footer.png)
 
 ## Testing
 ---
@@ -163,4 +165,8 @@ Locate the "Fork" button on the top right of the page and click it
 ### The README.md
 Inspiration for writing this readme file.
 
-- The overall layout was taken from Code institutes
+- The overall layout was taken from Code institutes [Sample Project README.md](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/)
+- The instructions for forking the repository and creating a local clone was taken from [Tasha Johnson's pawsome-portraits-v4](https://github.com/TashaTJ/pawsome-portraits-v4)
+
+### Special thanks!
+- To my Code Institute mentor Harry and to my friend Martin for great support !
